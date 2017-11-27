@@ -119,4 +119,8 @@ function mapStateToProps(state) {
   return { notes: state.allNotes }
 }
 
+AllNotes.navigationOptions = {
+  title: 'All Notes',
+};
+
 export default connect(mapStateToProps, { deleteNote })(AllNotes)

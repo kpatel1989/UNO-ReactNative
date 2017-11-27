@@ -105,4 +105,8 @@ class NewNote extends Component {
   }
 }
 
+NewNote.navigationOptions = {
+  title: 'New Note',
+};
+
 export default connect(null, { addNote })(NewNote)

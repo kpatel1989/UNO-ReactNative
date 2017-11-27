@@ -110,4 +110,7 @@ class SingleNote extends Component {
   }
 }
 
+SingleNote.navigationOptions = {
+  title: 'Edit Note',
+};
 export default connect(null, { updateNote })(SingleNote)
